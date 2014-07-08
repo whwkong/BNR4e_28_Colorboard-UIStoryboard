@@ -20,6 +20,7 @@
 		27105783196C237C007A40F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27105781196C237C007A40F0 /* InfoPlist.strings */; };
 		27105785196C237C007A40F0 /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27105784196C237C007A40F0 /* ColorboardTests.m */; };
 		2710578F196C291A007A40F0 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2710578E196C291A007A40F0 /* Colorboard.storyboard */; };
+		27105792196C42E4007A40F0 /* BNRColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27105791196C42E4007A40F0 /* BNRColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		27105782196C237C007A40F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27105784196C237C007A40F0 /* ColorboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorboardTests.m; sourceTree = "<group>"; };
 		2710578E196C291A007A40F0 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = SOURCE_ROOT; };
+		27105790196C42E4007A40F0 /* BNRColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRColorViewController.h; sourceTree = "<group>"; };
+		27105791196C42E4007A40F0 /* BNRColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				2710578E196C291A007A40F0 /* Colorboard.storyboard */,
 				2710576E196C237C007A40F0 /* BNRAppDelegate.h */,
 				2710576F196C237C007A40F0 /* BNRAppDelegate.m */,
+				27105790196C42E4007A40F0 /* BNRColorViewController.h */,
+				27105791196C42E4007A40F0 /* BNRColorViewController.m */,
 				27105771196C237C007A40F0 /* Images.xcassets */,
 				27105766196C237C007A40F0 /* Supporting Files */,
 			);
@@ -246,6 +251,7 @@
 			files = (
 				2710576C196C237C007A40F0 /* main.m in Sources */,
 				27105770196C237C007A40F0 /* BNRAppDelegate.m in Sources */,
+				27105792196C42E4007A40F0 /* BNRColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
