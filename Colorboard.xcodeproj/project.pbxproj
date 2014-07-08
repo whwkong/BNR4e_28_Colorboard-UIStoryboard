@@ -19,6 +19,7 @@
 		2710577B196C237C007A40F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27105763196C237C007A40F0 /* UIKit.framework */; };
 		27105783196C237C007A40F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27105781196C237C007A40F0 /* InfoPlist.strings */; };
 		27105785196C237C007A40F0 /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27105784196C237C007A40F0 /* ColorboardTests.m */; };
+		2710578F196C291A007A40F0 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2710578E196C291A007A40F0 /* Colorboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		27105780196C237C007A40F0 /* ColorboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorboardTests-Info.plist"; sourceTree = "<group>"; };
 		27105782196C237C007A40F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27105784196C237C007A40F0 /* ColorboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorboardTests.m; sourceTree = "<group>"; };
+		2710578E196C291A007A40F0 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		27105765196C237C007A40F0 /* Colorboard */ = {
 			isa = PBXGroup;
 			children = (
+				2710578E196C291A007A40F0 /* Colorboard.storyboard */,
 				2710576E196C237C007A40F0 /* BNRAppDelegate.h */,
 				2710576F196C237C007A40F0 /* BNRAppDelegate.m */,
 				27105771196C237C007A40F0 /* Images.xcassets */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2710578F196C291A007A40F0 /* Colorboard.storyboard in Resources */,
 				2710576A196C237C007A40F0 /* InfoPlist.strings in Resources */,
 				27105772196C237C007A40F0 /* Images.xcassets in Resources */,
 			);
